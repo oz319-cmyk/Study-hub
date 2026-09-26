@@ -3,107 +3,212 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kerala SCERT +1 & +2 Science Study Hub | Notes & Solved Papers</title>
+    <title>Kerala SCERT +1 & +2 Higher Secondary Study Hub</title>
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
-        body { background-color: #f4f6f9; color: #333; line-height: 1.6; padding: 15px; }
-        header { background: #0d47a1; color: white; padding: 22px 15px; border-radius: 12px; text-align: center; margin-bottom: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.12); }
-        header h1 { font-size: 1.4rem; margin-bottom: 5px; }
-        header p { font-size: 0.85rem; opacity: 0.9; }
+        body { background-color: #f4f6f9; color: #333; line-height: 1.6; padding: 12px; }
         
-        .badge { background: #ffeb3b; color: #000; padding: 3px 8px; border-radius: 4px; font-weight: bold; font-size: 0.75rem; vertical-align: middle; }
-        .section-title { font-size: 1.2rem; margin: 25px 0 12px 0; color: #0d47a1; border-left: 5px solid #0d47a1; padding-left: 10px; font-weight: bold; }
+        header { background: #0d47a1; color: white; padding: 20px 12px; border-radius: 12px; text-align: center; margin-bottom: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.12); }
+        header h1 { font-size: 1.35rem; margin-bottom: 5px; }
+        header p { font-size: 0.82rem; opacity: 0.9; }
+
+        /* Quick Navigation Bar */
+        .nav-bar { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 10px; margin-bottom: 15px; scrollbar-width: none; }
+        .nav-bar::-webkit-scrollbar { display: none; }
+        .nav-chip { background: white; color: #0d47a1; border: 1px solid #90caf9; padding: 8px 14px; border-radius: 20px; text-decoration: none; font-size: 0.8rem; font-weight: bold; white-space: nowrap; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+
+        .notice { background: #e3f2fd; border: 1px solid #90caf9; padding: 12px; border-radius: 8px; margin-bottom: 20px; font-size: 0.82rem; color: #0d47a1; }
         
-        .grid { display: grid; grid-template-columns: 1fr; gap: 15px; }
+        .stream-title { font-size: 1.25rem; margin: 25px 0 10px 0; color: #0d47a1; border-left: 5px solid #0d47a1; padding-left: 10px; font-weight: bold; }
+        .class-heading { font-size: 1rem; color: #d84315; margin: 15px 0 10px 0; font-weight: bold; }
+
+        .grid { display: grid; grid-template-columns: 1fr; gap: 12px; }
         
-        .card { background: white; padding: 18px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); border: 1px solid #e0e0e0; }
-        .card h3 { font-size: 1.05rem; color: #1a237e; margin-bottom: 6px; }
-        .card p { font-size: 0.82rem; color: #555; margin-bottom: 12px; }
+        .card { background: white; padding: 15px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.06); border: 1px solid #e0e0e0; }
+        .card h3 { font-size: 1rem; color: #1a237e; margin-bottom: 4px; }
+        .card p { font-size: 0.8rem; color: #555; margin-bottom: 10px; }
         
-        .btn { display: block; background: #1976d2; color: white; text-decoration: none; padding: 10px 14px; border-radius: 6px; font-weight: bold; font-size: 0.85rem; text-align: center; width: 100%; box-sizing: border-box; }
+        .btn { display: block; background: #1976d2; color: white; text-decoration: none; padding: 9px 12px; border-radius: 6px; font-weight: bold; font-size: 0.82rem; text-align: center; width: 100%; box-sizing: border-box; }
         .btn-green { background: #25D366; margin-top: 10px; }
         
-        .notice { background: #e3f2fd; border: 1px solid #90caf9; padding: 12px; border-radius: 8px; margin-bottom: 20px; font-size: 0.85rem; color: #0d47a1; }
-        
-        footer { margin-top: 35px; text-align: center; font-size: 0.78rem; color: #757575; padding: 15px; border-top: 1px solid #e0e0e0; }
+        footer { margin-top: 35px; text-align: center; font-size: 0.75rem; color: #757575; padding: 15px; border-top: 1px solid #e0e0e0; }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Kerala Higher Secondary Science Hub</h1>
-        <p>SCERT Plus One (+1) & Plus Two (+2) Free Revision Notes & Answer Keys</p>
+        <h1>Kerala SCERT Higher Secondary Hub</h1>
+        <p>Complete Class 11 (+1) & Class 12 (+2) Study Notes, Textbooks & Papers</p>
     </header>
 
+    <!-- QUICK NAV CHIPS -->
+    <div class="nav-bar">
+        <a href="#languages" class="nav-chip">Languages</a>
+        <a href="#science" class="nav-chip">Science Stream</a>
+        <a href="#commerce" class="nav-chip">Commerce Stream</a>
+        <a href="#humanities" class="nav-chip">Humanities Stream</a>
+        <a href="#ads" class="nav-chip">Coaching Ads</a>
+    </div>
+
     <div class="notice">
-        📢 <b>Attention Students:</b> Updated for DHSE Kerala SCERT Board Exams. Download chapter-wise short revision notes and solved model papers below.
+        📢 <b>SCERT Kerala Student Portal:</b> Download revised syllabus notes, model question papers, and answer keys across all streams below.
     </div>
 
-    <!-- PLUS ONE SCIENCE SECTION -->
-    <div class="section-title">Class 11 (Plus One Science)</div>
+    <!-- 1. LANGUAGES SECTION -->
+    <div id="languages" class="stream-title">Common Languages (+1 & +2)</div>
     <div class="grid">
         <div class="card">
-            <h3>Physics Notes <span class="badge">SCERT</span></h3>
-            <p>Units & Measurement, Motion, Laws of Motion, Work Energy Power, and Thermodynamics revision notes.</p>
-            <a href="YOUR_GOOGLE_DRIVE_LINK_HERE" class="btn">Download Physics Notes</a>
+            <h3>English (Core)</h3>
+            <p>Chapter summaries, critical appreciations, character sketches, and grammar practice.</p>
+            <a href="YOUR_GOOGLE_DRIVE_LINK" class="btn">View English Notes</a>
         </div>
         <div class="card">
-            <h3>Chemistry Notes <span class="badge">SCERT</span></h3>
-            <p>Some Basic Concepts, Structure of Atom, Chemical Bonding, and Organic Chemistry short notes.</p>
-            <a href="YOUR_GOOGLE_DRIVE_LINK_HERE" class="btn">Download Chemistry Notes</a>
+            <h3>Malayalam (Second Language)</h3>
+            <p>Kavitha padanam, gadhya bhaagangal, padaprayogangal, and previous exam questions.</p>
+            <a href="YOUR_GOOGLE_DRIVE_LINK" class="btn">View Malayalam Notes</a>
         </div>
         <div class="card">
-            <h3>Mathematics Formula Sheet</h3>
-            <p>Sets, Trigonometry, Calculus, Permutations & Combinations formula sheets.</p>
-            <a href="YOUR_GOOGLE_DRIVE_LINK_HERE" class="btn">Download Maths Formulas</a>
+            <h3>Hindi (Second Language)</h3>
+            <p>Unit-wise summaries, poori katha, character sketches, and translation exercises.</p>
+            <a href="YOUR_GOOGLE_DRIVE_LINK" class="btn">View Hindi Notes</a>
         </div>
         <div class="card">
-            <h3>Biology (Botany & Zoology)</h3>
-            <p>Plant Kingdom, Cell Biology, Biomolecules, and Animal Kingdom notes with diagrams.</p>
-            <a href="YOUR_GOOGLE_DRIVE_LINK_HERE" class="btn">Download Biology Notes</a>
-        </div>
-        <div class="card">
-            <h3>Computer Science</h3>
-            <p>C++ Programming, Control Statements, Arrays, Data Types, and Boolean Algebra.</p>
-            <a href="YOUR_GOOGLE_DRIVE_LINK_HERE" class="btn">Download Computer Science Notes</a>
+            <h3>Arabic / Sanskrit / Communicative English</h3>
+            <p>Grammar rules, translation guides, and chapter notes.</p>
+            <a href="YOUR_GOOGLE_DRIVE_LINK" class="btn">View Additional Languages</a>
         </div>
     </div>
 
-    <!-- PLUS TWO SCIENCE SECTION -->
-    <div class="section-title">Class 12 (Plus Two Science)</div>
+    <!-- 2. SCIENCE STREAM -->
+    <div id="science" class="stream-title">Science Stream</div>
+
+    <div class="class-heading">Class 11 (Plus One Science)</div>
     <div class="grid">
         <div class="card">
-            <h3>Physics Board Exam Solved Papers</h3>
-            <p>Electric Charges, Current Electricity, Ray Optics, Semiconductors & Previous 5 Year Solved Papers.</p>
-            <a href="YOUR_GOOGLE_DRIVE_LINK_HERE" class="btn">Download Physics Solved Papers</a>
+            <h3>Physics (+1)</h3>
+            <p>Motion, Laws of Motion, Work Power Energy, Gravitation, and Thermodynamics.</p>
+            <a href="YOUR_GOOGLE_DRIVE_LINK" class="btn">View Physics Notes</a>
         </div>
         <div class="card">
-            <h3>Chemistry Notes & Answer Keys</h3>
-            <p>Solutions, Electrochemistry, Chemical Kinetics, Coordination Compounds, and Organic Reactions.</p>
-            <a href="YOUR_GOOGLE_DRIVE_LINK_HERE" class="btn">Download Chemistry Notes</a>
+            <h3>Chemistry (+1)</h3>
+            <p>Basic Concepts, Structure of Atom, Chemical Bonding, and Organic Chemistry.</p>
+            <a href="YOUR_GOOGLE_DRIVE_LINK" class="btn">View Chemistry Notes</a>
         </div>
         <div class="card">
-            <h3>Mathematics - Board Exam Revision</h3>
-            <p>Calculus (Integrals, Derivatives), Vector Algebra, 3D Geometry, and Probability quick review.</p>
-            <a href="YOUR_GOOGLE_DRIVE_LINK_HERE" class="btn">Download Maths Notes</a>
+            <h3>Mathematics (+1)</h3>
+            <p>Sets, Trigonometry, Calculus, Permutations, and Conic Sections formula sheets.</p>
+            <a href="YOUR_GOOGLE_DRIVE_LINK" class="btn">View Maths Notes</a>
         </div>
         <div class="card">
-            <h3>Biology (Botany & Zoology)</h3>
-            <p>Reproduction in Organisms, Genetics, Biotechnology, and Human Health notes.</p>
-            <a href="YOUR_GOOGLE_DRIVE_LINK_HERE" class="btn">Download Biology Notes</a>
+            <h3>Botany (+1)</h3>
+            <p>Cell Biology, Plant Kingdom, Morphology, and Plant Physiology notes with diagrams.</p>
+            <a href="YOUR_GOOGLE_DRIVE_LINK" class="btn">View Botany Notes</a>
+        </div>
+        <div class="card">
+            <h3>Zoology (+1)</h3>
+            <p>Animal Kingdom, Biomolecules, Human Physiology, and Breathing/Circulation.</p>
+            <a href="YOUR_GOOGLE_DRIVE_LINK" class="btn">View Zoology Notes</a>
+        </div>
+        <div class="card">
+            <h3>Computer Science (+1)</h3>
+            <p>Data Representation, C++ / Python Basics, Arrays, and Control Statements.</p>
+            <a href="YOUR_GOOGLE_DRIVE_LINK" class="btn">View Computer Science Notes</a>
         </div>
     </div>
 
-    <!-- TUITION AD / CONTACT SECTION -->
-    <div class="section-title">Coaching & Tuition Sponsorships</div>
+    <div class="class-heading">Class 12 (Plus Two Science)</div>
+    <div class="grid">
+        <div class="card">
+            <h3>Physics (+2)</h3>
+            <p>Electrostatics, Current Electricity, Magnetism, Ray Optics, and Semiconductors.</p>
+            <a href="YOUR_GOOGLE_DRIVE_LINK" class="btn">View Physics Notes</a>
+        </div>
+        <div class="card">
+            <h3>Chemistry (+2)</h3>
+            <p>Solutions, Electrochemistry, Kinetics, Coordination Compounds, and Organic Reactions.</p>
+            <a href="YOUR_GOOGLE_DRIVE_LINK" class="btn">View Chemistry Notes</a>
+        </div>
+        <div class="card">
+            <h3>Mathematics (+2)</h3>
+            <p>Integrals, Derivatives, Vector Algebra, 3D Geometry, and Probability.</p>
+            <a href="YOUR_GOOGLE_DRIVE_LINK" class="btn">View Maths Notes</a>
+        </div>
+        <div class="card">
+            <h3>Botany & Zoology (+2)</h3>
+            <p>Genetics, Biotechnology, Reproduction, Human Health, and Ecosystem notes.</p>
+            <a href="YOUR_GOOGLE_DRIVE_LINK" class="btn">View Biology Notes</a>
+        </div>
+        <div class="card">
+            <h3>Computer Science (+2)</h3>
+            <p>OOPs, Data Structures, Web Technology (HTML/JS), SQL, and Networking.</p>
+            <a href="YOUR_GOOGLE_DRIVE_LINK" class="btn">View Computer Science Notes</a>
+        </div>
+    </div>
+
+    <!-- 3. COMMERCE STREAM -->
+    <div id="commerce" class="stream-title">Commerce Stream</div>
+
+    <div class="class-heading">Class 11 & Class 12 Commerce</div>
+    <div class="grid">
+        <div class="card">
+            <h3>Accountancy (AFA & CA)</h3>
+            <p>Financial Accounting, Partnership Accounts, Company Accounts, and Computerised Accounting.</p>
+            <a href="YOUR_GOOGLE_DRIVE_LINK" class="btn">View Accountancy Notes</a>
+        </div>
+        <div class="card">
+            <h3>Business Studies</h3>
+            <p>Principles of Management, Marketing, Consumer Protection, and Business Finance notes.</p>
+            <a href="YOUR_GOOGLE_DRIVE_LINK" class="btn">View Business Studies Notes</a>
+        </div>
+        <div class="card">
+            <h3>Economics (Micro & Macro)</h3>
+            <p>Statistics for Economics, Indian Economic Development, Microeconomics, and Macroeconomics.</p>
+            <a href="YOUR_GOOGLE_DRIVE_LINK" class="btn">View Economics Notes</a>
+        </div>
+        <div class="card">
+            <h3>Computer Application (Commerce)</h3>
+            <p>HTML, JavaScript, Database Management Systems (DBMS), and Accounting Software notes.</p>
+            <a href="YOUR_GOOGLE_DRIVE_LINK" class="btn">View Computer Application Notes</a>
+        </div>
+    </div>
+
+    <!-- 4. HUMANITIES STREAM -->
+    <div id="humanities" class="stream-title">Humanities Stream</div>
+
+    <div class="class-heading">Class 11 & Class 12 Humanities</div>
+    <div class="grid">
+        <div class="card">
+            <h3>History</h3>
+            <p>Early Societies, World History Themes, Indian History, and Map Work guides.</p>
+            <a href="YOUR_GOOGLE_DRIVE_LINK" class="btn">View History Notes</a>
+        </div>
+        <div class="card">
+            <h3>Political Science</h3>
+            <p>Indian Constitution at Work, Political Theory, and Contemporary World Politics notes.</p>
+            <a href="YOUR_GOOGLE_DRIVE_LINK" class="btn">View Politics Notes</a>
+        </div>
+        <div class="card">
+            <h3>Sociology</h3>
+            <p>Introducing Sociology, Understanding Society, and Indian Society short notes.</p>
+            <a href="YOUR_GOOGLE_DRIVE_LINK" class="btn">View Sociology Notes</a>
+        </div>
+        <div class="card">
+            <h3>Geography & Psychology</h3>
+            <p>Fundamentals of Physical Geography, Human Geography, and Practical Work notes.</p>
+            <a href="YOUR_GOOGLE_DRIVE_LINK" class="btn">View Geography/Psychology Notes</a>
+        </div>
+    </div>
+
+    <!-- SPONSORSHIP SECTION -->
+    <div id="ads" class="stream-title">Tuition & Entrance Coaching</div>
     <div class="card">
-        <h3>Tuition Centers & Entrance Coaching Institutes</h3>
-        <p>Promote your Higher Secondary entrance coaching or local tuition classes directly to SCERT Science students.</p>
-        <a href="https://wa.me/91YOURNUMBERHERE?text=I%20want%20to%20advertise%20my%20tuition%20center%20on%20your%20website" class="btn btn-green">Promote Your Tuition (WhatsApp)</a>
+        <h3>Promote Your Coaching Center Here</h3>
+        <p>Reach thousands of SCERT Plus One and Plus Two students across Kerala studying Science, Commerce, and Humanities.</p>
+        <a href="https://wa.me/91YOURNUMBERHERE?text=Hi,%20I%20want%20to%20advertise%20my%20tuition%20center" class="btn btn-green">Contact via WhatsApp</a>
     </div>
 
     <footer>
-        <p>© 2026 Kerala SCERT Higher Secondary Study Hub • Unofficial Student Resource Portal</p>
+        <p>© 2026 SCERT Kerala Higher Secondary Resource Hub • Student Learning Portal</p>
     </footer>
 
 </body>
